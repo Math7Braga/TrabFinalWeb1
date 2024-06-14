@@ -1,0 +1,121 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(0, 153, 255);
+  color: rgb(0, 153, 255);
+}
+
+.nav-links a {
+  color: whitesmoke;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+  color: whitesmoke;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 5px;
+}
+
+
+
+.romance {
+  background-color: var(--cor-primaria-success);
+  outline: none;
+  color: var(--cor-secundaria-success)
+}
+
+.romance:hover {
+  background-color: var(--cor-hover-success);
+}
+
+.romance:active {
+  color: var(--cor-primaria-success);
+  background-color: var(--cor-secundaria-success);
+}
+
+
+.btn-info {
+  background-color: var(--cor-primaria-info);
+  outline: none;
+  color: var(--cor-secundaria-info)
+}
+
+.btn-info:hover {
+  background-color: var(--cor-hover-info);
+}
+
+.btn-info:active {
+  color: var(--cor-primaria-info);
+  background-color: var(--cor-secundaria-info);
+}
+
+
+.btn-danger {
+  background-color: var(--cor-primaria-danger);
+  outline: none;
+  color: var(--cor-secundaria-danger)
+}
+
+.btn-succdangeress:hover {
+  background-color: var(--cor-hover-danger);
+}
+
+.btn-danger:active {
+  color: var(--cor-primaria-danger);
+  background-color: var(--cor-secundaria-danger);
+}
+
+.categorias {
+
+}
